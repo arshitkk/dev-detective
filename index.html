@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- outer wrapper start-->
+        <div class="container">
+            <!-- inner container end -->
+            <div class="heading">
+                <!-- heading -->
+                <div class="title">DevDetective</div>
+                <div class="mode">
+                    <p class="mode-name">Light</p>
+                    <p class="icon"><i class="fa-solid fa-sun"></i></p>
+                </div>
+            </div>
+            <div class="search-bar">
+                <!-- Search Bar -->
+                <p class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></p>
+               <form class="input-bar">
+                <input type="text" placeholder="Enter a Github Username..." class="search">
+                <button class="search-btn" type="submit">Search</button>
+               </form>
+            </div>
+            <div class="info-container">
+                <!-- info-container -->
+                <div class="top-container">
+                    <!-- top container -->
+                    <div class="profile-section">
+                        <img src="" class="pfp">
+                        <div class="name-section">
+                            <p class="name"></p>
+                            <a href="/" class="username"></a>
+                        </div>
+                    </div>
+                    <div class="joined-date">Joined 09 November 2021</div>
+                </div>
+                <p class="bio"></p>
+                <div class="stat-section">
+                    <!-- stat section -->
+                    <div class="stat">
+                        <p>Repo</p>
+                        <p id="repo-cnt">8</p>
+                    </div>
+                    <div class="stat">
+                        <p>Follower</p>
+                        <p id="follower-cnt"></p>
+                    </div>
+                    <div class="stat">
+                        <p>Following</p>
+                        <p id="following-cnt"></p>
+                    </div>
+                </div>
+                <div class="contact-section">
+                    <div class="upper-section">
+                        <div class="box location">
+                            <p class="icon"><i class="fa-solid fa-location-dot"></i></p>
+                            <p class="location-name">Not Available</p>
+                        </div>
+                        <div class="box website">
+                            <p class="icon"><i class="fa-solid fa-link"></i></p>
+                            <a class="website-name" >Not Available</a>
+                        </div>
+                    </div>
+                    <div class="lower-section">
+                        <div class="box x">
+                            <p class="icon"><i class="fa-brands fa-x-twitter"></i></p>
+                            <a class="x-link" href="">Not Available</a>
+                        </div>
+                        <div class="box company">
+                            <p class="icon"><i class="fa-regular fa-building"></i></p>
+                            <p class="company-name">Not Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- outer wrapper end-->
+    <script src="script.js"></script>
+    <script src="env.js"></script>
+</body>
+</html>
